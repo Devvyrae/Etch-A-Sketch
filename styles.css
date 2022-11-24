@@ -1,0 +1,49 @@
+
+.containerForTheGrid {
+    
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-content: center; 
+    align-items: center; 
+    row-gap: 30px; 
+     
+  }
+  
+  .button {
+    background-color: red; 
+    padding: 15px 32px; 
+    border-radius: 8px; 
+    margin: 15px;
+    
+  }
+  
+  .littleBoxes {
+    display: flex;
+    flex-wrap: wrap; 
+    border: 1px solid blue;
+    width: 352px; 
+    height: 352px; 
+  }
+  
+  .stylebox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    transition: 1s
+   
+     
+  }
+  
+  .stylebox:hover {
+    background-color: red;
+   transition: 0s; 
+  } 
+
+  .form {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+  }
